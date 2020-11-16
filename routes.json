@@ -1,0 +1,4 @@
+{
+    "/users/:id/meetings": "/users_meetings/:id",
+    "/users/:id/events": "/users_events/:id"
+}

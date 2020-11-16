@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "username": "Elf",
+      "email": "elf@example.com",
+      "password": "elfpassword",
+      "id": 1
+    },
+    {
+      "username": "Elf2",
+      "email": "elf2@example.com",
+      "password": "elf2password",
+      "id": 2,
+      "old_password": "1234",
+      "new_password": "12345"
+    }
+  ],
+  "users_meetings": [
+    {
+      "id": 1,
+      "meetings": [
+        {
+          "id": 3,
+          "vote": true,
+          "meeting": {
+              "hash_id": "ABDFA3B",
+              "title": "The New Weekly Meeting",
+              "mode": "weekly",
+              "description": "The meetings will last for about 1 hour.",
+              "meeting_link": "https://meet.google.com/uro-dkkz-brc",
+              "location": "EC321",
+              "final_slots": [
+                  {
+                      "day": 1,
+                      "hour": 12,
+                      "minute": 30,
+                      "date": null
+                  },
+                  {
+                      "day": 1,
+                      "hour": 13,
+                      "minute": 0,
+                      "date": null
+                  }
+              ]
+          }
+        },
+        {
+          "id": 5,
+          "vote": true,
+          "meeting": {
+              "hash_id": "ABDFA5B",
+              "title": "The 5th Meeting",
+              "mode": "weekly",
+              "description": "The meetings will last for about 1 hour.",
+              "meeting_link": "https://meet.google.com/uro-dkkz-brc",
+              "location": "EC321",
+              "final_slots": [
+                  {
+                      "day": 1,
+                      "hour": 12,
+                      "minute": 30,
+                      "date": null
+                  },
+                  {
+                      "day": 1,
+                      "hour": 13,
+                      "minute": 0,
+                      "date": null
+                  }
+              ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "meetings": [
+        {
+          "id": 3,
+          "vote": true,
+          "meeting": {
+              "hash_id": "ABDFA3B",
+              "title": "The New Weekly Meeting",
+              "mode": "weekly",
+              "description": "The meetings will last for about 1 hour.",
+              "meeting_link": "https://meet.google.com/uro-dkkz-brc",
+              "location": "EC321",
+              "final_slots": [
+                  {
+                      "day": 1,
+                      "hour": 12,
+                      "minute": 30,
+                      "date": null
+                  },
+                  {
+                      "day": 1,
+                      "hour": 13,
+                      "minute": 0,
+                      "date": null
+                  }
+              ]
+          }
+        },
+        {
+          "id": 5,
+          "vote": true,
+          "meeting": {
+              "hash_id": "ABDFA5B",
+              "title": "The 5th Meeting",
+              "mode": "weekly",
+              "description": "The meetings will last for about 1 hour.",
+              "meeting_link": "https://meet.google.com/uro-dkkz-brc",
+              "location": "EC321",
+              "final_slots": [
+                  {
+                      "day": 1,
+                      "hour": 12,
+                      "minute": 30,
+                      "date": null
+                  },
+                  {
+                      "day": 1,
+                      "hour": 13,
+                      "minute": 0,
+                      "date": null
+                  }
+              ]
+          }
+        }
+      ]
+    }
+  ],
+  "users_events": [
+    {
+      "id": 1,
+      "events": [
+        {
+          "id": 3,
+          "name": "The New Weekly Meeting",
+          "slots": [
+              {
+                  "day": 1,
+                  "hour": 12,
+                  "minute": 30,
+                  "date": null
+              },
+              {
+                  "day": 1,
+                  "hour": 13,
+                  "minute": 0,
+                  "date": null
+              }
+          ]
+        }, 
+        {
+          "id": 6,
+          "name": "The New Weekly Meeting 2",
+          "slots": [
+              {
+                  "day": 1,
+                  "hour": 12,
+                  "minute": 30,
+                  "date": null
+              },
+              {
+                  "day": 1,
+                  "hour": 13,
+                  "minute": 0,
+                  "date": null
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "events": [
+        {
+          "id": 3,
+          "name": "The New Weekly Meeting",
+          "slots": [
+              {
+                  "day": 1,
+                  "hour": 12,
+                  "minute": 30,
+                  "date": null
+              },
+              {
+                  "day": 1,
+                  "hour": 13,
+                  "minute": 0,
+                  "date": null
+              }
+          ]
+        }, 
+        {
+          "id": 6,
+          "name": "The New Weekly Meeting 2",
+          "slots": [
+              {
+                  "day": 1,
+                  "hour": 12,
+                  "minute": 30,
+                  "date": null
+              },
+              {
+                  "day": 1,
+                  "hour": 13,
+                  "minute": 0,
+                  "date": null
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}
