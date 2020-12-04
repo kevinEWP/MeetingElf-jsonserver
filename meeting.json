@@ -1,0 +1,50 @@
+{
+  "meetings": [
+    {
+      "hash_id": "ABDFA3B",
+      "title": "The New Weekly Meeting",
+      "mode": "weekly",
+      "description": "The meetings will last for about 1 hour.",
+      "meeting_link": "https://meet.google.com/uro-dkkz-brc",
+      "location": "EC321",
+      "host_user": {
+        "id": 1,
+        "username": "Elf",
+        "email": "elf@example.com"
+      },
+      "vote_slots": [
+        {
+          "day": 1,
+          "hour": 12,
+          "minute": 30,
+          "date": null,
+          "count": 3
+        },
+        {
+          "day": 1,
+          "hour": 13,
+          "minute": 0,
+          "date": null,
+          "count": 8
+        }
+      ],
+      "final_slots": [
+        {
+          "id": 1,
+          "day": 1,
+          "hour": 12,
+          "minute": 30,
+          "date": null
+        },
+        {
+          "id": 2,
+          "day": 1,
+          "hour": 13,
+          "minute": 0,
+          "date": null
+        }
+      ],
+      "expire_date": "2020-12-25"
+    }
+  ]
+}
